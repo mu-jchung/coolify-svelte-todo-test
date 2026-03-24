@@ -14,9 +14,9 @@ After logging into Supabase, select `SQL Editor` > `COMMUNITY` > Quickstarts and
 
 ### 3. Get the URL and Key
 
-Go to the Project Settings (the cog icon), open the API tab, and find your API URL and `anon` key, you'll need these in the next step.
+Click the "Connect" button at the top of the Supabase dashboard page, open the API Keys tab, and find your Project URL and `Anon` Key; you'll need these in the next step.
 
-The `anon` key is your client-side API key. It allows "anonymous access" to your database, until the user has logged in. Once they have logged in, the keys will switch to the user's own login token. This enables row level security for your data. Read more about this [below](#postgres-row-level-security).
+The `Anon` key is your client-side API key. It allows "anonymous access" to your database, until the user has logged in. Once they have logged in, the keys will switch to the user's own login token. This enables row level security for your data. Read more about this [below](#postgres-row-level-security).
 
 ![image](https://user-images.githubusercontent.com/10214025/88916245-528c2680-d298-11ea-8a71-708f93e1ce4f.png)
 
