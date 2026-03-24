@@ -8,15 +8,15 @@
   
 ### 1. Login to the self-hosted Supabase dashboard
 
-DASHBOARD login credentials will be found in the supabase-project directory > .env file.
+DASHBOARD login credentials will be found in the `supabase-project` directory > `.env` file.
 
 ### 2. Run "Todo List" Quickstart
 
-After logging into Supabase, select `SQL Editor` > `COMMUNITY` > Quickstarts and select the `Todo List` Quickstart. Run the `Todo List` Quickstart SQL to populate the database.
+After logging into Supabase, select `SQL Editor` > `COMMUNITY` > `Quickstarts` and select the `Todo List` Quickstart. Run the `Todo List` Quickstart SQL to populate the database.
 
 ### 3. Get the URL and Key
 
-Click the "Connect" button at the top of the Supabase dashboard page, open the API Keys tab, and find your Project URL and `Anon` Key; you'll need these in the next step.
+Click the `Connect` button at the top of the Supabase dashboard page, open the `API Keys` tab, and find your Project URL and `Anon` Key; you'll need these in the next step.
 
 ### 4. Clone this repository
 
@@ -28,7 +28,7 @@ Resolve dependencies with the command
 
 `npm i --legacy-peer-deps`
 
-cd to coolify-svelte-todo-test and copy .env.example to .env.local. Modify .env.local to contain the URL and Anon Key from Step 3 above.
+`cd` to `coolify-svelte-todo-test` and copy `.env.example` to `.env.local`. Modify `.env.local` to contain the URL and Anon Key from Step 3 above.
 
 Run the app with the command
 
