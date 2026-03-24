@@ -24,11 +24,11 @@ Click the `Connect` button at the top of the Supabase dashboard page, open the `
 
 ### 5. Set up local dev and run
 
+`cd` to `coolify-svelte-todo-test` and copy `.env.example` to `.env.local`. Modify `.env.local` to contain the URL and Anon Key from Step 3 above.
+
 Resolve dependencies with the command
 
 `npm i --legacy-peer-deps`
-
-`cd` to `coolify-svelte-todo-test` and copy `.env.example` to `.env.local`. Modify `.env.local` to contain the URL and Anon Key from Step 3 above.
 
 Run the app with the command
 
