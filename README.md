@@ -16,12 +16,6 @@ After logging into Supabase, select `SQL Editor` > `COMMUNITY` > Quickstarts and
 
 Click the "Connect" button at the top of the Supabase dashboard page, open the API Keys tab, and find your Project URL and `Anon` Key; you'll need these in the next step.
 
-The `Anon` key is your client-side API key. It allows "anonymous access" to your database, until the user has logged in. Once they have logged in, the keys will switch to the user's own login token. This enables row level security for your data. Read more about this [below](#postgres-row-level-security).
-
-![image](https://user-images.githubusercontent.com/10214025/88916245-528c2680-d298-11ea-8a71-708f93e1ce4f.png)
-
-**_NOTE_**: The `service_role` key has full access to your data, bypassing any security policies. These keys have to be kept secret and are meant to be used in server environments and never on a client or browser.
-
 ## Supabase details
 
 ### Postgres Row level security
