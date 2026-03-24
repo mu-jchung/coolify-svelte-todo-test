@@ -1,4 +1,4 @@
-# Todo example using Supabase + Svelte + Vite w/ modifications for self-hosted Supabase
+# Todo List webapp example using Supabase + Svelte + Vite w/ modifications for self-hosted Supabase
 
 - Frontend:
   - Svelte, TypeScript
