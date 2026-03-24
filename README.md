@@ -4,15 +4,13 @@
   - Svelte, TypeScript
   - [Supabase.js](https://supabase.com/docs/library/getting-started) for user management and realtime data syncing.
 - Backend:
-  - [supabase.com/dashboard](https://supabase.com/dashboard/): hosted Postgres database with restful API for usage with Supabase.js.
-
-### 1. Create new project
-
-Sign up to Supabase - [https://supabase.com/dashboard](https://supabase.com/dashboard) and create a new project. Wait for your database to start.
+  - Supabase, self-hosted using instrutions at https://supabase.com/docs/guides/self-hosting/docker
+  
+### 1. Login to self-hosted Supabase dashboard
 
 ### 2. Run "Todo List" Quickstart
 
-Once your database has started, run the "Todo List" quickstart. Inside of your project, enter the `SQL editor` tab and scroll down until you see `TODO LIST: Build a basic todo list with Row Level Security`.
+After logging into Supabase, select `SQL Editor` > `COMMUNITY` > Quickstarts and select the `Todo List` Quickstart. Run the `Todo List` Quickstart SQL to populate the database.
 
 ### 3. Get the URL and Key
 
