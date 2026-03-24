@@ -16,7 +16,7 @@ After logging into Supabase, select `SQL Editor` > `COMMUNITY` > `Quickstarts` a
 
 ### 3. Get the URL and Key
 
-Click the `Connect` button at the top of the Supabase dashboard page, open the `API Keys` tab, and find your Project URL and `Anon` Key; you'll need these in the next step.
+Click the `Connect` button at the top of the Supabase dashboard page, open the `API Keys` tab, and find your Project URL and `Anon` Key; you'll need these in Step 5 below.
 
 ### 4. Clone this repository
 
